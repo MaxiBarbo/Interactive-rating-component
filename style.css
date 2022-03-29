@@ -43,9 +43,9 @@
      font-size: 1em;
   }
   button{
-    color: var(--netural-white);
-    border: none;
-      border-radius: 10%;
+      color: var(--netural-white);
+      border: none;
+      border-radius: 15%;
       margin-left: 1rem;
       margin-top: 2rem;
       width: 20rem;
@@ -53,7 +53,7 @@
       background-color: var(--primary-orange);
   }
   button:hover{
-    border: none;
+      border: none;
       color:var(--primary-orange) ;
       transition-duration: 0.7s;
       background-color: var(--netural-white);
@@ -61,27 +61,31 @@
   input{
       text-align: center;
       color: var(--netural-light-grey);
-      
+      border-style: none;
+     
+      cursor: pointer;
   }
   .inputs{
-      margin-top: 6rem;
+      margin-top: 5rem;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
-      gap:1rem
+      gap:1rem;
+      border: none;
   }
   .in{
       width: 3rem;
       height: 3rem;
       border-radius: 50%;
-      background-color: var(--netural-dark-blue);
+      background-color:hsl(211, 19%, 23%);
       
   }
   .in:hover{
       transition-duration: 0.7s;
       background-color: var(--primary-orange);
       color:var(--netural-white);
+      cursor: pointer;
   }
   .thank_you{
     display:none;
@@ -106,8 +110,8 @@
   }
   #mostrar_thank{
     font-family: 'Overpass', sans-serif;
-    font-size: 1.2em;
-    letter-spacing: 3px;
+    font-size: 1em;
+    letter-spacing: 5px;
     font-weight: 600;
     
   }
@@ -123,6 +127,7 @@
   footer{
     margin-top: 1rem;
   }
+ 
   
   @media only screen and (max-width: 400px) { 
     .container{
