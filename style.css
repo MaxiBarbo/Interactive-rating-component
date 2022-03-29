@@ -45,17 +45,17 @@
   button{
     color: var(--netural-white);
     border: none;
-      border-radius: 5%;
-      margin-left: 3rem;
+      border-radius: 10%;
+      margin-left: 1rem;
       margin-top: 2rem;
-      width: 15rem;
+      width: 20rem;
       height: 2.5rem;
       background-color: var(--primary-orange);
   }
   button:hover{
     border: none;
       color:var(--primary-orange) ;
-      transition-duration: 0.5s;
+      transition-duration: 0.7s;
       background-color: var(--netural-white);
   }
   input{
