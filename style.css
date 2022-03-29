@@ -15,6 +15,7 @@
   }
   h3{
     color: var(--netural-white);
+    font-weight: 700;
   }
   
   .main {
@@ -43,7 +44,8 @@
   }
   button{
     color: var(--netural-white);
-      border-radius: 10%;
+    border: none;
+      border-radius: 5%;
       margin-left: 3rem;
       margin-top: 2rem;
       width: 15rem;
@@ -51,6 +53,7 @@
       background-color: var(--primary-orange);
   }
   button:hover{
+    border: none;
       color:var(--primary-orange) ;
       transition-duration: 0.5s;
       background-color: var(--netural-white);
@@ -73,7 +76,7 @@
       height: 3rem;
       border-radius: 50%;
       background-color: var(--netural-dark-blue);
-      border-collapse: collapse;
+      
   }
   .in:hover{
       transition-duration: 0.7s;
