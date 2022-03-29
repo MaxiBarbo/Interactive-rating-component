@@ -7,7 +7,6 @@
     --netural-very-dark-blue: hsl(216, 12%, 8%);
   }
   
-  
   body {
     background-color: var(--netural-very-dark-blue);
     font-family: "Nunito Sans", sans-serif;
@@ -37,7 +36,10 @@
     width: 410px;
   }
   p{
+    margin-top: 1rem;
+    margin-bottom: -1rem;
      color:var(--netural-light-grey); 
+     font-size: 1em;
   }
   button{
     color: var(--netural-white);
@@ -101,9 +103,10 @@
   }
   #mostrar_thank{
     font-family: 'Overpass', sans-serif;
-    font-size: 1em;
-    letter-spacing: 2px;
-    font: bold;
+    font-size: 1.2em;
+    letter-spacing: 3px;
+    font-weight: 600;
+    
   }
   .selected{
     letter-spacing: 1px;
@@ -112,7 +115,7 @@
     border: 1px solid var(--netural-medium-grey);
     padding: 0.5rem 1rem;
     border-radius: 2rem;
-    
+    margin-bottom: 1rem;
   }
   footer{
     margin-top: 1rem;
@@ -127,6 +130,9 @@
     }
     .thank_you{
       width: 90%;
+    }
+    .attributiona{
+      font-size: 1em;
     }
   }
   
