@@ -24,6 +24,7 @@
     justify-content: flex-start;
   }
   .container {
+    background-color: var(--netural-dark-blue);
     -ms-transform: translate(-50%, -50%);
     border-radius: 5%;
     height: 415px;
@@ -124,6 +125,8 @@
     margin-bottom: 1rem;
   }
   footer{
+    display: flex;
+    justify-content: center;
     margin-top: 1rem;
   }
  
@@ -131,6 +134,7 @@
   @media only screen and (max-width: 400px) { 
     .container{
       width: 90%;
+      height: 65%;
     }
     #mostrar_thank{
       margin-left: 0;
@@ -140,6 +144,9 @@
     }
     .attributiona{
       font-size: 1em;
+    }
+    button{
+      width: 100%;
     }
   }
   
