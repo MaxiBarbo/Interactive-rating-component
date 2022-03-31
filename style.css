@@ -25,7 +25,6 @@
   }
   .container {
     -ms-transform: translate(-50%, -50%);
-    background-color: var(--netural-dark-blue);
     border-radius: 5%;
     height: 415px;
     left: 50%;
